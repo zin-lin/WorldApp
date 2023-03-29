@@ -1,0 +1,21 @@
+version: '3'
+services:
+  # Application Dockerfile is in same folder which is .
+  app:
+    build: .
+    restart: always #app might quit since there is a throwable error
+    ports:
+      - "3030:8080"
+
+  db:
+    build: /db
+    restart: always #db might quit since there is a throwable error
+    command: --default-authentication-plugin=mysql_native_password
+    ports:
+      - "3001:3306"
+
+  fe:
+    build: /src/main/frontend/world-napier
+    restart: always #
+    ports:
+      - "5000:3000"
