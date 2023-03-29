@@ -5,7 +5,7 @@ import {useEffect, useState} from "react";
 /**
  * Component
  * @returns {JSX.Element}
- * @constructor, fucx s8ke
+ * @constructor, fucx s8ke zin
  */
 function App() {
   const [text, setText] = useState("")
