@@ -1,28 +1,29 @@
 # APP
 - The Application is developed by Author: Zin Lin Htun
 ## ToolChain
-- `Java 17`[
+`Java 17`[
 <img alt="Java" width="26px" align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
 ](https://www.java.com/en/)
 
-- `React`[
+`React`[
 <img alt="React" width="26px" align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
 ](https://react.dev/)
 
-- `Redux`[
+`Redux`[
 <img alt="Redux" width="26px" align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
 ](https://react-redux.js.org/)
-- `TypeScript`
+
+`TypeScript`
 [
 <img alt="TypeScript" width="26px" align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
 ](https://www.typescriptlang.org/)
 
-- `Dockers`
+`Dockers`
 [
 <img alt="Docker" width="26px" align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
 ](https://www.docker.com/)
 
-- `Spring.io`
+`Spring.io`
 [
 <img alt="Spring" width="26px" align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
 ](https://spring.io/)
