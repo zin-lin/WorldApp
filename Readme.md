@@ -33,7 +33,7 @@
  and proxy for `fe` is set to be `8080`.
 - Config proxy for `fe` to just `app`, when using with dockers
   - For running all dockers run `docker-compose.yml`
-  - the whole of application after successful `compose` will be exposed at server's port `3000`.
+  - the whole of application after successful `compose` will be exposed at server's port `5000`.
 
 ### Download And Test
 - Docker Way
@@ -43,7 +43,7 @@
 
   - docker-compose `up`
   - change proxy in `frontend`'s `world-napier` to be `app` instead of `http://localhost:8080`
-  
+  - access app via server's port `5000`
 - Development Way
    - run DockerCompose `docker-compose.yml` for just `db`
    - run `DemodocApplication.java`
