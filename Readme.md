@@ -44,12 +44,12 @@
   - docker-compose `up`
   - change proxy in `frontend`'s `world-napier` to be `app` instead of `http://localhost:8080`
   
-    - Development Way
-       - run DockerCompose `docker-compose.yml` for just `db`
-       - run `DemodocApplication.java`
-       - 
-      ```Powershell
+- Development Way
+   - run DockerCompose `docker-compose.yml` for just `db`
+   - run `DemodocApplication.java`
+   - 
+  ```Powershell
        >cd src/main/frontend/world-napier
        >npm start
-      ```
+  ```
        
