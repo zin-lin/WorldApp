@@ -22,6 +22,7 @@ export default function PopulationReportExample(){
 
     return (
         <div style={{position:"absolute", margin:'auto', borderRadius:23, width:'80%', height:'50%', background:'white',
+            minHeight:500,
           boxShadow:'3px 3px 18px 8px rgba(0,0,0,0.1)', overflow:'auto', display:'flex', justifyContent:'center', alignItems: 'center'
         }}  className='none-scroll' >
             <div>
