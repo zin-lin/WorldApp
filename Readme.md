@@ -4,7 +4,7 @@
   <img src=./hm.png/>
   
   - preview mobile
-  <img src=./hmm.png/>
+  <img src=./hmm.png/ width='180px'>
 
 ## ToolChain
 `Java 17`[
