@@ -46,9 +46,9 @@ export default function Home(){
                 </div>
                 <div style={{margin:'50px', marginTop:'100px', opacity:butOpa, transition:'1s ease'}}>
                     <p style={{fontSize:43, fontWeight:'bold', textShadow:'2px 2px 12px #555', color:'#de94d7'}}>WELCOME</p>
-                    <p style={{fontSize:29,textShadow:'2px 2px 12px #777', color:'#bccde8', lineHeight:1.5}}>Do you know that there are
+                    <p style={{textShadow:'2px 2px 12px #777', fontSize:'19px',color:'#bccde8', lineHeight:1.5}}>Do you know that there are
                         <br style={{marginBottom:10}}/>
-                        <span style={{fontWeight:'bold', textShadow:'none',fontSize:'32px', background:'#eee', borderRadius:10, paddingRight:8,
+                        <span className='BIG-TEXT' style={{fontWeight:'bold', textShadow:'none', background:'#eee', borderRadius:10, paddingRight:8,
                         paddingLeft:8, color:'#4f5656', margin:'17px'
                         }}><span className="material-symbols-outlined" style={{marginRight: 8, color:'#777' }}>
                         person

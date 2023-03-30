@@ -158,6 +158,10 @@ input.noner{
   border-bottom: 1px solid rgba(49, 49, 49, 0.079);
 }
 
+.BIG-TEXT{
+  font-size: 32px;
+}
+
 .mid-gray {
   font-size: 21px;
   color: gray;
@@ -937,6 +941,9 @@ p.aText {
 }
 
 @media  screen and (max-width: 500px) {
+  .BIG-TEXT{
+    font-size: 23px;
+  }
   .mobile-nav-item4{
     visibility: visible;
   }
