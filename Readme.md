@@ -1,5 +1,7 @@
 # APP
 - The Application is developed by Author: Zin Lin Htun
+  - preview
+  <img src=./hm.png/>
 ## ToolChain
 `Java 17`[
 <img alt="Java" width="26px" align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
