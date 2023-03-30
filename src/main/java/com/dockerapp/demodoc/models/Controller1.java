@@ -16,7 +16,8 @@ public class Controller1 {
         try {
             sqlConnection.connect("localhost:3001", 0);
             PopulationReport report = sqlConnection.getWorldPopulation();
-            ans = report.toString();
+            ans = report.getPopulation()+"";
+            sqlConnection.disconnect();
         }catch(Exception e)
         {
             ans = "Error: " + e.getMessage();
