@@ -10,6 +10,10 @@ html{
   user-select: none;
   font-family: "Montserrat", sans-serif;
   color: #eee;
+  background-image: url("./assets/bgxx.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center ;
   initial-scale:1;
   transition: 0.7s ease;
 }
@@ -17,7 +21,6 @@ html{
 
 
 body {
-  background: #071322;
   margin: 0;
   font-family: "Montserrat", BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -62,7 +65,7 @@ App{
 
 /* layout styles */
 nav{
-  background:  var(--primary) ;
+  background:  transparent ;
   background-blend-mode: screen;
   width: 100%;
   height: 50px;
@@ -73,7 +76,6 @@ nav{
   vertical-align: center;
   align-content: center;
   padding-bottom: 3px;
-  backdrop-filter: blur(1.2px);
   position: fixed;
   position: fixed;
   z-index: 100;
@@ -156,6 +158,22 @@ input.noner{
   border-bottom: 1px solid rgba(49, 49, 49, 0.079);
 }
 
+.mid-gray {
+  font-size: 21px;
+  color: gray;
+}
+
+.large-black {
+  font-size: 28px;
+  color: black;
+}
+
+.highlight{
+  transition: 0.3s ease;
+  color: #333131;
+  background: #eee; border-radius: 8px; padding: 5px;
+}
+
 span {
   color: #eeeeee;
 }
@@ -165,7 +183,7 @@ ROM SPECIAL
  */
 .rom-app {
   overflow: auto;
-  height: 100vh;
+  height: calc(100vh - 0px);
 }
 
 .enucs{
@@ -231,7 +249,7 @@ ROM SPECIAL
   width: 100%;
   height: calc(100vh - 50px);
   flex: 1;
-  background: #131F2E;
+  background: transparent;
   margin-bottom: 0px;
   margin-top:50px;
   bottom: 0;
@@ -869,14 +887,34 @@ p.aText {
   margin-right: 0px;
 }
 
+.none-scroll
+::-webkit-scrollbar {
+  width: 0px;
+  visibility: hidden;
+  margin-right: 0px;
+}
+
+.none-scroll
+::-webkit-scrollbar-track {
+  width: 0px;
+  margin-right: 0px;
+}
+
+.none-scroll
+::-webkit-scrollbar-track {
+  width: 0px;
+  margin-right: 0px;
+}
+
+
 
 /* Handle */
-.full-bg-img-mask::-webkit-scrollbar-thumb:hover {
+.full-bg-img-mask,.none-scroll::-webkit-scrollbar-thumb:hover {
   background: rgba(202, 202, 204, 0.79);
 }
 
-.full-bg-img-mask::-webkit-scrollbar-thumb {
-  background: rgba(11, 15, 23, 0.58);
+.full-bg-img-mask, .none-scroll::-webkit-scrollbar-thumb {
+  background: rgba(11, 15, 23, 0);
 
 }
 .full-bg-img {
