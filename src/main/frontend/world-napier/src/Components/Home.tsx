@@ -49,8 +49,8 @@ export default function Home(){
                     <p style={{textShadow:'2px 2px 12px #777', fontSize:'19px',color:'#bccde8', lineHeight:1.5}}>Do you know that there are
                         <br style={{marginBottom:10}}/>
                         <span className='BIG-TEXT' style={{fontWeight:'bold', textShadow:'none', background:'#eee', borderRadius:10, paddingRight:8,
-                        paddingLeft:8, color:'#4f5656', margin:'17px'
-                        }}><span className="material-symbols-outlined" style={{marginRight: 8, color:'#777' }}>
+                        paddingLeft:8, color:'#4f5656', margin:'17px', transition:'0.4s ease', alignItems:'center', display:'flex', justifyContent: 'center'
+                        }}><span className="material-symbols-outlined" style={{marginRight: 8, color:'#777', transition:'0.4s ease' }}>
                         person
                         </span>
                             {count}

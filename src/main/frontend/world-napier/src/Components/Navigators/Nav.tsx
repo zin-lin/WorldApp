@@ -20,10 +20,10 @@ export default function Nav () {
                 <p style={{marginLeft:'20px', fontSize:23, fontWeight:'bold'}}>WorldNapier2013</p>
             </div>
             <div className='hider' style={{right:10, position:'absolute', display:'flex', height:'100%', alignItems:'center'}}>
-                <Link onClick={()=> dispatch(toHome())} to='/'><p style={{fontSize:16, margin:12 }}>Home</p></Link>
-                <Link onClick={()=> dispatch(toHome())} to='/'><p style={{fontSize:16, margin:12 }}>Countries</p></Link>
-                <Link onClick={()=> dispatch(toHome())} to='/'><p style={{fontSize:16, margin:12 }}>Capitals</p></Link>
-                <Link onClick={()=> dispatch(toHome())} to='/'><p style={{fontSize:16, margin:12 }}>Cities</p></Link>
+                <Link onClick={()=> dispatch(toHome())} to='/'><p className='text-shadow-mini' style={{fontSize:16, margin:12 }}>Home</p></Link>
+                <Link onClick={()=> dispatch(toHome())} to='/'><p className='text-shadow-mini' style={{fontSize:16, margin:12 }}>Countries</p></Link>
+                <Link onClick={()=> dispatch(toHome())} to='/'><p className='text-shadow-mini' style={{fontSize:16, margin:12 }}>Capitals</p></Link>
+                <Link onClick={()=> dispatch(toHome())} to='/'><p className='text-shadow-mini' style={{fontSize:16, margin:12 }}>Cities</p></Link>
 
             </div>
             <div className = "hider-reverse" style={{marginTop:'6px', right:0, position:'absolute' }}>

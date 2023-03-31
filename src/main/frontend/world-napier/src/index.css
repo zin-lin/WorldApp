@@ -89,6 +89,9 @@ nav a{
 nav .sidenav-trigger{
   margin: 0;
 }
+.text-shadow-mini{
+  text-shadow: 1px 1px 5px rgba(20, 43, 56, 0.83);
+}
 
 ::placeholder{
   color: #ccc;
