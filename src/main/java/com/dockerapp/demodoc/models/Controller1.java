@@ -16,7 +16,7 @@ public class Controller1 {
         SQLConnection sqlConnection = new SQLConnection();
         String ans;
         try {
-            sqlConnection.connect("localhost:3001", 0);
+            sqlConnection.connect("db:3306", 0);
             PopulationReport report = sqlConnection.getWorldPopulation();
             ans = report.getPopulation()+"";
             sqlConnection.disconnect();
@@ -32,7 +32,7 @@ public class Controller1 {
         SQLConnection sqlConnection = new SQLConnection();
         String ans;
         try {
-            sqlConnection.connect("localhost:3001", 0);
+            sqlConnection.connect("db:3306", 0);
             PopulationReport report = sqlConnection.getPopulationOfCityID(id);
             ans = report.getPopulation()+"";
             sqlConnection.disconnect();
@@ -48,7 +48,7 @@ public class Controller1 {
         SQLConnection sqlConnection = new SQLConnection();
         String ans;
         try {
-            sqlConnection.connect("localhost:3001", 0);
+            sqlConnection.connect("db:3306", 0);
             PopulationReport report = sqlConnection.getPopulationOfDistrict(name);
             ans = report.getPopulation()+"";
             sqlConnection.disconnect();
@@ -64,7 +64,7 @@ public class Controller1 {
         SQLConnection sqlConnection = new SQLConnection();
         String ans;
         try {
-            sqlConnection.connect("localhost:3001", 0);
+            sqlConnection.connect("db:3306", 0);
             PopulationReport report = sqlConnection.getPopulationOfRegion(name);
             ans = report.getPopulation()+"";
             sqlConnection.disconnect();
@@ -81,7 +81,7 @@ public class Controller1 {
         SQLConnection sqlConnection = new SQLConnection();
         String ans;
         try {
-            sqlConnection.connect("localhost:3001", 0);
+            sqlConnection.connect("db:3306", 0);
             PopulationReport report = sqlConnection.getPopulationOfCountry(code);
             ans = report.getPopulation()+"";
             sqlConnection.disconnect();
@@ -98,7 +98,7 @@ public class Controller1 {
         SQLConnection sqlConnection = new SQLConnection();
         String ans;
         try {
-            sqlConnection.connect("localhost:3001", 0);
+            sqlConnection.connect("db:3306", 0);
             PopulationReport report = sqlConnection.getPopulationOfContinent(name);
             ans = report.getPopulation()+"";
             sqlConnection.disconnect();
